@@ -56,7 +56,7 @@ hosts = [
     name = "{{ host.name }}"
       {%- if host.username is defined and host.password is defined %}
     auth = {
-      userame = "{{ host.username }}"
+      username = "{{ host.username }}"
       password = "{{ host.password }}"
     }
       {%- endif %}
